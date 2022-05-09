@@ -65,7 +65,7 @@ botaoCriarConta.addEventListener("click", (e) => {
 
     // @ Criando um novo usuário pela API
     let cadastroJson = JSON.stringify(novoUsuario);
-    let endPointLogin = "http://apptodo-dh-backend.herokuapp.com/api/v1/users";
+    let endPointLogin = "https://apptodo-dh-backend.herokuapp.com/api/v1/users";
 
     let configNewUser = {
       method: "POST",

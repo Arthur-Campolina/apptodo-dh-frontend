@@ -3,7 +3,7 @@ onload = () => {
 
   renderizarSkeletons(5, ".tarefas-pendentes");
   let nomeUsuario = document.querySelector(".user-info p");
-  let endPointLogin = "http://apptodo-dh-backend.herokuapp.com/api/v1/users";
+  let endPointLogin = "https://apptodo-dh-backend.herokuapp.com/api/v1/users";
 
   let tokenJwt = localStorage.getItem("jwt");
   console.log(tokenJwt);
