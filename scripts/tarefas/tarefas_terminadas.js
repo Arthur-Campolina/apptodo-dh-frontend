@@ -31,7 +31,7 @@ function renderizaTarefasTerminadas(tarefa) {
 function getId(id) {
   let tokenJwt = localStorage.getItem("jwt");
 
-  let endPointUpdateTask = `https://apptodo-dh-backend.herokuapp.com/tasks/${id}/status`;
+  let endPointUpdateTask = `http://apptodo-dh-backend.herokuapp.com/api/v1/tasks/${id}/status`;
 
   let bodyUpdateTask = {
     completed: true,

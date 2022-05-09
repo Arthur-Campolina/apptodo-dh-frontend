@@ -35,7 +35,7 @@ botaoAcessar.addEventListener("click", (event) => {
     // @@ Incluindo acesso a API com o Login
     let loginUsuarioJson = JSON.stringify(usuarioObjeto);
 
-    let endPointLogin = "https://apptodo-dh-backend.herokuapp.com/oauth/token";
+    let endPointLogin = "http://apptodo-dh-backend.herokuapp.com/api/v1/oauth/token";
 
     let configRequisicao = {
       method: "POST",

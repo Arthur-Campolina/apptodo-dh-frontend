@@ -1,7 +1,7 @@
 function deleteTask(event) {
   let tokenJwt = localStorage.getItem("jwt");
 
-  let endPointDeleteTask = `https://apptodo-dh-backend.herokuapp.com/tasks/${event}`;
+  let endPointDeleteTask = `http://apptodo-dh-backend.herokuapp.com/api/v1/tasks/${event}`;
 
   let configDeleteTasks = {
     method: "DELETE",
